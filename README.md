@@ -1,6 +1,6 @@
 # countrylistexam
 
-![country list](https://user-images.githubusercontent.com/98274676/150689948-aea3879b-9f5b-459a-807e-7a9d4ec4070b.PNG)
+![country list](https://user-images.githubusercontent.com/98274676/150689948-aea3879b-9f5b-459a-807e-7a9d4ec4070b.PNG){width=50%}{height=50%}
 ![country details](https://user-images.githubusercontent.com/98274676/150689956-21b71537-a396-4541-8b8e-d950b6c91025.PNG)
 ![sorted](https://user-images.githubusercontent.com/98274676/150689968-a6df2857-8663-4765-820b-32dfb70b0034.PNG)
 
