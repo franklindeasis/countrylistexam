@@ -1,9 +1,9 @@
 # countrylistexam
 <p float="left">
-<img src="https://user-images.githubusercontent.com/98274676/150689948-aea3879b-9f5b-459a-807e-7a9d4ec4070b.PNG" width="250" />
-<img src="https://user-images.githubusercontent.com/98274676/150689956-21b71537-a396-4541-8b8e-d950b6c91025.PNG" width="250" />
-<img src="https://user-images.githubusercontent.com/98274676/150691136-157207d8-5380-4d74-a833-8145207dc2f0.png" width="250" />
-<img src="https://user-images.githubusercontent.com/98274676/150689968-a6df2857-8663-4765-820b-32dfb70b0034.PNG" width="250" />
+<img src="https://user-images.githubusercontent.com/98274676/150689948-aea3879b-9f5b-459a-807e-7a9d4ec4070b.PNG" width="200" />
+<img src="https://user-images.githubusercontent.com/98274676/150689956-21b71537-a396-4541-8b8e-d950b6c91025.PNG" width="200" />
+<img src="https://user-images.githubusercontent.com/98274676/150691136-157207d8-5380-4d74-a833-8145207dc2f0.PNG" width="200" />
+<img src="https://user-images.githubusercontent.com/98274676/150689968-a6df2857-8663-4765-820b-32dfb70b0034.PNG" width="200" />
 </p>
 <br />
 Libraries used<br />
