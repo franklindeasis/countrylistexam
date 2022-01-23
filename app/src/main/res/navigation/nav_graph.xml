@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/countryListView">
+
+    <fragment
+        android:id="@+id/countryListView"
+        android:name="com.fda.countrylist.ui.CountryListView"
+        android:label="@string/app_name" >
+        <action
+            android:id="@+id/action_countryListView_to_countryDetailsView"
+            app:destination="@id/countryDetailsView" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/countryDetailsView"
+        android:name="com.fda.countrylist.ui.CountryDetailsView"
+        android:label="@string/country_details" >
+        <argument
+            android:name="country"
+            app:argType="com.fda.countrylist.data.model.business.Country" />
+    </fragment>
+
+</navigation>

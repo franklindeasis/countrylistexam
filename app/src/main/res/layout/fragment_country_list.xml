@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/papaya_whip">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/country_search_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            app:iconifiedByDefault="false"
+            android:background="@color/white"
+            android:queryBackground="@android:color/transparent"
+            android:queryHint="@string/search_country"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/rv_country_list"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+        </androidx.appcompat.widget.SearchView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_country_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/papaya_whip"
+            app:layout_constraintTop_toBottomOf="@id/country_search_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lav_loading"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_fileName="anim_loading.json"
+            app:lottie_loop="true" />
+
+        <include layout="@layout/page_something_went_wrong"
+            android:id="@+id/cl_something_went_wrong"
+            android:visibility="gone"/>
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="country_search_view,rv_country_list"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

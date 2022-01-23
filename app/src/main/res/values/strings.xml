@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rest Countries</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="short_text">Short Text</string>
+    <string name="search_country">Search Country</string>
+    <string name="country_details">Country Details</string>
+    <string name="coat_of_arms">Coat of Arms</string>
+    <string name="independent_status">Independent Status</string>
+    <string name="status">Status</string>
+    <string name="capital">Capital</string>
+    <string name="region">Region</string>
+    <string name="independent">Independent</string>
+    <string name="not_independent">Dependent</string>
+    <string name="subregion">Sub region</string>
+    <string name="coordinates">Coordinates</string>
+    <string name="area">Area</string>
+    <string name="population">Population</string>
+    <string name="retry">Retry</string>
+    <string name="sort_by_population">Sort by Population</string>
+    <string name="sort_by_area">Sort by Area</string>
+</resources>
