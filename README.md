@@ -12,10 +12,10 @@ Dagger+Hilt for dependency injection<br />
 DataBinding<br />
 Jetpack Navigation<br />
 Glide for Image Loading<br />
-<br /><br />
+<br />
 Architecture flow (MVVM Clean Architecture + Repository Pattern)<br />
 View <-> ViewModel <-> Interactors/Use Cases <-> Repository <-> Local/Remote Data Source<br />
-<br /><br />
+<br />
 Features:<br />
 Load list of countries returned from API https://restcountries.com/v3.1/<br />
 Display Country Details, flag, coat of arms, capital, region, etc.<br />
@@ -24,7 +24,7 @@ Handles loading/error displays<br />
 Data persistence on orientation change<br />
 Debug/Release flavor<br />
 Has data object mapper that converts Network models to Business models (CountryDataMapper.kt)<br />
-
+<br />
 Possible additional features:<br />
 Filtering option based on various country details<br />
 Better UI Design<br />
