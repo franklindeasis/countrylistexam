@@ -23,3 +23,10 @@ Handles loading/error displays<br />
 Data persistence on orientation change<br />
 Debug/Release flavor<br />
 Has data object mapper that converts Network models to Business models (CountryDataMapper.kt)<br />
+
+Possible additional features:
+Filtering option based on various country details
+Better UI Design
+Refresh functionality
+Google Maps linking
+Wikipedia link
